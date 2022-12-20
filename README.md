@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">CV Generator</h2>
+  <h1 align="center">CV Generator</h1>
   <p align="center">Resume CV with PDF export</p>
 </p>
 
