@@ -16,6 +16,6 @@
 </p>
 
 <p>
-  <h2 align="center">About the project</h2>
+  <h2>☕ About the project</h2>
   The project was created by inspiring me from the <a href="https://github.com/bedimcode">bedimcode</a> project called Responsive Resume Cv Smith (project link: <a href="https://github.com/bedimcode/responsive-resume-cv-smith">responsive-resume-cv-smith</a>) and watching the associated Youtube video of Bedimcode: <a href="https://www.youtube.com/watch?v=oYjseP_Qhv4">Responsive Resume Cv Website Using HTML CSS And JavaScript | Light/Dark Theme & Export PDF</a>.
 </p>
