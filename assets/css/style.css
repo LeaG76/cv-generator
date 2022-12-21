@@ -1,0 +1,262 @@
+/* Google Font Poppins */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* Variables */
+:root {
+    --header-height: 3rem;
+
+    /* Colors */
+    --title-color: #0B0A0A;
+    --text-color: #403A3A;
+    --text-color-light: #707070;
+    --container-color: #FAFAFA;
+    --container-color-alt: #F0EFEF;
+    --body-color: #FCFCFC;
+
+    /* Typography */
+    --body-font: 'Poppins', sans-serif;
+
+    /* Fonts size */
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+
+    /* Fonts weight */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* Margins */
+    --margin-1: .5rem;
+    --margin-2: 1rem;
+    --margin-3: 1.5rem;
+
+    /* Z Index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/* Base */
+
+*, ::before, ::after {
+    /*margin: 0;
+    padding: 0;*/
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body */
+
+body {
+    margin: 0 0 var(--header-height) 0;
+    padding: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3, ul, p {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Class CSS */
+
+.section {
+    padding: 1.5rem 0;
+}
+
+.section-title {
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+    text-transform: uppercase;
+    letter-spacing: .35rem;
+    text-align: center;
+    margin-bottom: var(--margin-3);
+}
+
+/* Layout */
+
+.bd-container {
+    max-width: 968px;
+    width: calc(100% - 3rem);
+    margin-left: var(--margin-3);
+    margin-right: var(--margin-3);
+}
+
+.bd-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.l-header {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--body-color);
+    box-shadow: 0 -1px 4px rgba(0,0,0,0.1);
+    transition: .3s;
+}
+
+/* Nav */
+
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+@media screen and (max-width: 968px) {
+    .nav_menu {
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        padding: 2rem 1.5rem;
+        background-color: var(--body-color);
+        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        border-radius: 1rem 1rem 0 0;
+        z-index: var(--z-fixed);
+        transition: .3;
+    }
+}
+
+.nav_logo, .nav_toggle {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.nav_toggle {
+    font-size: 1.2rem;
+    cursor: pointer;  
+}
+
+.nav_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.nav_item {
+    text-align: center;
+}
+
+.nav_link {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+    font-weight: var(--font-medium);
+}
+
+.nav_link:hover {
+    color: var(--title-color);
+}
+
+.nav_icon {
+    font-size: 1.2rem;
+    margin-bottom: var(--margin-1);
+}
+
+/* Show menu */
+
+.show-menu {
+    bottom: var(--header-height);
+}
+
+/* Active menu link */
+
+.active-link {
+    color: var(--title-color);
+}
+
+/* Home page */
+
+.home {
+    position: relative;
+}
+
+.home_container {
+    gap: 3rem;
+}
+
+.home_data {
+    gap: .5rem;
+    text-align: center;
+}
+
+.home_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    justify-self: center;
+    margin-bottom: var(--margin-1);
+}
+
+.home_title {
+    font-size: var(--h1-font-size);
+}
+
+.home_profession {
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--margin-1);
+}
+
+.home_address {
+    gap: 1rem;
+}
+
+.home_information {
+    display: flex;
+    align-items: center;
+    font-size: var(--small-font-size);
+}
+
+.home_icon {
+    font-size: 1.2rem;
+    margin-right: .25rem;
+}
+
+.home_button-movil {
+    display: inline-block;
+    border: 2px solid var(--text-color);
+    color: var(--title-color);
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+    transition: .3s;
+    font-weight: var(--font-medium);
+    margin-top: var(--margin-3);
+}
+
+.home_button-movil:hover {
+    background-color: var(--text-color);
+    color: var(--container-color);
+}

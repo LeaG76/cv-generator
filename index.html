@@ -1,24 +1,168 @@
 <!DOCTYPE html>
-<html lang="fr">
+
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive CV</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <!-- Boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Stylesheet CSS3 -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <title>Responsive Resume CV</title>
   </head>
+
   <body>
-    <div class="container">
-        <div class="left_side">
-            <div class="profileText">
-                <div class="imgBx">
-                    <img src="img.png">
-                </div>
-                <h2>Léa Gallier<br><span>Analyst Developper</span></h2>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Léa</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bx-home-alt-2 nav_icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#profile" class="nav_link">
+                            <i class='bx bx-user nav_icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">
+                            <i class='bx bx-book-alt nav_icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-receipt nav_icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#experience" class="nav_link">
+                            <i class='bx bx-briefcase nav_icon'></i></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#certificates" class="nav_link">
+                            <i class='bx bx-award nav_icon'></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#references" class="nav_link">
+                            <i class='bx bx-link-external nav_icon'></i>References
+                        </a>
+                    </li>
+
+                </ul>
             </div>
-        </div>
-        <div class="right_side">
-            
-        </div>
-    </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume_left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home_container section bd-grid">
+                        <div class="home_data bd-grid">
+                            <img src="assets/pictures/profile.png" alt="Icon picture" class="home_img">
+                            
+                            <h1 class="home_title">LEA <b>GALLIER</b></h1>
+                            <h3 class="home_profession">Analyst developer</h3>
+
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf" class="home_button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home_address bd-grid">
+                            <span class="home_information">
+                                <i class='bx bx-map home_icon'></i> Port-Jérôme sur Seine - France
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-envelope home_icon'></i> leagallier.lag@gmail.com
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-phone home_icon'></i> 06.11.45.11.65
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+
+                </section>          
+                
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    
+                </section>
+                
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    
+                </section>
+
+            </div>
+
+            <div class="resume_right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    
+                </section>
+
+                <!--========== REFERENCES ==========-->
+                <section class="references section" id="references">
+                    
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    
+                </section>
+                
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    
+                </section>
+            </div>
+        </div>   
+    </main>
+
+    <script src=""></script>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
