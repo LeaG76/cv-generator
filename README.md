@@ -19,3 +19,20 @@
   <h2>☕ About the project</h2>
   The project was created by inspiring me from the <a href="https://github.com/bedimcode">bedimcode</a> project called Responsive Resume Cv Smith (project link: <a href="https://github.com/bedimcode/responsive-resume-cv-smith">responsive-resume-cv-smith</a>) and watching the associated Youtube video of Bedimcode: <a href="https://www.youtube.com/watch?v=oYjseP_Qhv4">Responsive Resume Cv Website Using HTML CSS And JavaScript | Light/Dark Theme & Export PDF</a>.
 </p>
+
+<p>
+  <h2>⏳ En cours</h2>
+  <ul>
+    <li>Version mobile</li>
+    <li>Version page normale</li>
+  </ul>
+</p>
+
+<p>
+  <h2>✏️ Todo</h2>
+  <ul>
+    <li>Intérets : faire un donut chart -> Vue.js ?</li>
+    <li>Compétences : faire des barres</li>
+    <li>Langages : faire etoiles ?</li>
+  </ul>
+</p>
