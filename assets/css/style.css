@@ -260,3 +260,26 @@ img {
     background-color: var(--text-color);
     color: var(--container-color);
 }
+
+/* Social page */
+
+.social_container {
+    grid-template-columns: max-content;
+    gap: 1rem;
+}
+
+.social_link {
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+}
+
+.social_link:hover {
+    color: var(--title-color);
+}
+
+.social_icon {
+    font-size: 1.2rem;
+    margin-right: .25rem;
+}
