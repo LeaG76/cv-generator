@@ -1,3 +1,11 @@
+***
+
+<p align="center">
+<img alt="Warning" src="https://cdn-icons-png.flaticon.com/512/595/595067.png" width="15px"/> <b>Project in progress</b> <img alt="Warning" src="https://cdn-icons-png.flaticon.com/512/595/595067.png" width="15px"/>
+</p>
+
+***
+
 <p align="center">
   <h1 align="center">CV Generator</h1>
   <p align="center">Resume CV with PDF export</p>
