@@ -1,14 +1,6 @@
-***
-
-<p align="center">
-<img alt="Warning" src="https://cdn-icons-png.flaticon.com/512/595/595067.png" width="15px"/> <b>Project in progress</b> <img alt="Warning" src="https://cdn-icons-png.flaticon.com/512/595/595067.png" width="15px"/>
-</p>
-
-***
-
 <p align="center">
   <h1 align="center">CV Generator</h1>
-  <p align="center">Resume CV with PDF export</p>
+  <h4 align="center">Resume CV with PDF export</h4>
 </p>
 
 <p align="center">
@@ -23,24 +15,13 @@
   <img alt="Repo size" src="https://img.shields.io/github/repo-size/leag76/cv-generator?color=%23C1AC95&logo=github&logoColor=white" />
 </p>
 
-<p>
-  <h2>☕ About the project</h2>
-  The project was created by inspiring me from the <a href="https://github.com/bedimcode">bedimcode</a> project called Responsive Resume Cv Smith (project link: <a href="https://github.com/bedimcode/responsive-resume-cv-smith">responsive-resume-cv-smith</a>) and watching the associated Youtube video of Bedimcode: <a href="https://www.youtube.com/watch?v=oYjseP_Qhv4">Responsive Resume Cv Website Using HTML CSS And JavaScript | Light/Dark Theme & Export PDF</a>.
-</p>
+## About
 
-<p>
-  <h2>⏳ En cours</h2>
-  <ul>
-    <li>Version mobile</li>
-    <li>Version page normale</li>
-  </ul>
-</p>
+> The project was created by inspiring me from the <a href="https://github.com/bedimcode">bedimcode</a> project called Responsive Resume Cv Smith (project link: <a href="https://github.com/bedimcode/responsive-resume-cv-smith">responsive-resume-cv-smith</a>) and watching the associated Youtube video of Bedimcode: <a href="https://www.youtube.com/watch?v=oYjseP_Qhv4">Responsive Resume Cv Website Using HTML CSS And JavaScript | Light/Dark Theme & Export PDF</a>
 
-<p>
-  <h2>✏️ Todo</h2>
-  <ul>
-    <li>Intérets : faire un donut chart -> Vue.js ?</li>
-    <li>Compétences : faire des barres</li>
-    <li>Langages : faire etoiles ?</li>
-  </ul>
-</p>
+
+## TodoList
+
+- Intérets : faire un donut chart -> Vue.js ?
+- Compétences : faire des barres
+- Langages : faire etoiles ?
