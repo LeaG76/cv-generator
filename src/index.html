@@ -4,7 +4,7 @@
  │ @author       Léa Gallier                                            │
  │ @version      1.0                                                    │
  │ @created      2022-12-19                                             │
- │ @modified     2023-02-28                                             │
+ │ @modified     2023-03-01                                             │
  │ @description  Responsive CV generation with PDF export               │
  └──────────────────────────────────────────────────────────────────────┘
 -->
@@ -18,18 +18,18 @@
 
     <title>Responsive Resume CV</title>
 
-    <!-- Fontawesome -->
+    <!-- Import Fontawesome -->
     <script src="https://kit.fontawesome.com/cb81440751.js" crossorigin="anonymous"></script>
     <!-- Boxicons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <!-- Stylesheet CSS3 -->
+    <!-- Import stylesheets in CSS3 -->
     <link rel="stylesheet" href="../assets/stylesheets/style.css" type="text/css">
   </head>
 
   <body>
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-            <a href="#" class="nav_logo">Léa</a>
+            <a href="#" class="nav_logo">Léa GALLIER</a>
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
 
@@ -97,12 +97,11 @@
                 <!--========== HOME ==========-->
                 <section class="home" id="home">
                     <div class="home_container section bd-grid">
+
                         <div class="home_data bd-grid">
                             <img src="../assets/pictures/profile.png" alt="Icon picture" class="home_img">
-                            
                             <h1 class="home_title">LEA <b>GALLIER</b></h1>
                             <h3 class="home_profession">Analyst developer</h3>
-
                             <div>
                                 <a download="" href="../assets/pdf/ResumeCv.pdf" class="home_button-movil">Download</a>
                             </div>
@@ -129,7 +128,7 @@
                 
                 <!--========== SOCIAL ==========-->
                 <section class="social section">
-                    <h2 class="section-title">SOCIAL</h2>
+                    <h2 class="section-title">Social</h2>
 
                     <div class="social_container bd-grid">
                         <a href="https://github.com/LeaG76" target="_blank" class="social_link">
@@ -146,8 +145,55 @@
 
                 <!--========== PROFILE ==========-->
                 <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
 
+                    <p class="profile_description">
+                        I am a person, responsible with their work during working hours. Finish various technical and higher studies at large universities. I have several years of experience and achievements in the labor field.
+                    </p>
                 </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">MASTER</h3>
+                                <span class="education_studies">Université Le Havre Normandie</span>
+                                <span class="education_year">2021-2023</span>
+                            </div>
+                        </div>
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">LICENCE</h3>
+                                <span class="education_studies">Université Le Havre Normandie</span>
+                                <span class="education_year">2018-2021</span>
+                            </div>
+                        </div>
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <!--<span class="education_line"></span>-->
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Lycée</h3>
+                                <span class="education_studies">Lycée Guillaume Le Conquérant</span>
+                                <span class="education_year">2015-2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- YOUTUBE : 35:03 -->
 
                 <!--========== CERTIFICATES ==========-->
                 <section class="certificate section" id="certificates">
@@ -173,11 +219,6 @@
                     
                 </section>
 
-                <!--========== EDUCATION ==========-->
-                <section class="education section" id="education">
-                    
-                </section>
-
                 <!--========== SKILLS  ==========-->
                 <section class="skills section" id="skills">
                     
@@ -189,6 +230,7 @@
 
     <script src=""></script>
 
+    <!-- Main Javascript file -->
     <script src="../assets/javascripts/main.js"></script>
   </body>
 </html>
