@@ -304,15 +304,18 @@ img {
 
 /* Education page */
 
-.education_content {
+.education_content,
+.experience_content {
     display: flex;
 }
 
-.education_time {
+.education_time,
+.experience_time {
     padding-right: 1rem;
 }
 
-.education_rounder {
+.education_rounder,
+.experience_rounder {
     position: relative;
     display: block;
     width: 16px;
@@ -322,7 +325,8 @@ img {
     margin-top: .25rem;
 }
 
-.education_line {
+.education_line,
+.experience_line {
     display: block;
     width: 2px;
     height: 110%;
@@ -330,19 +334,53 @@ img {
     transform: translate(7px, 0);
 }
 
-.education_data {
+.education_data,
+.experience_data {
     gap: .5rem;
 }
 
-.education_title {
+.education_title,
+.experience_title {
     font-size: var(--h3-font-size);
 }
 
-.education_studies {
+.education_studies,
+.experience_company {
     font-size: var(--small-font-size);
     color: var(--title-color);
 }
 
-.education_year {
+.education_year,
+.experience_year {
     font-size: var(--smaller-font-size);
+}
+
+.experience_description {
+    color: var(--text-color-light);
+    font-size: var(--smaller-font-size);
+}
+
+/* Skills */
+
+.skills_content {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills_data {
+    gap: 0;
+}
+
+.skills_name {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--margin-3);
+}
+
+.skills_circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    margin-right: 0.75rem;
 }
