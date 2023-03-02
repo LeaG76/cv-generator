@@ -246,6 +246,17 @@ img {
     margin-right: .75rem;
 }
 
+.home_link {
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+}
+
+.home_link:hover {
+    color: var(--title-color);
+}
+
 .home_button-movil {
     display: inline-block;
     border: 2px solid var(--text-color);
