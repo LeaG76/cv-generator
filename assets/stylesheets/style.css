@@ -412,3 +412,28 @@ img {
     font-size: 1.2rem;
     color: var(--text-color-light);
 }
+
+.scrolltop {
+    position: fixed;
+    right: 1.2rem;
+    bottom: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    background-color: var(--container-color-alt);
+    border-radius: 0.25rem;
+    z-index: var(--z-tooltip);
+    transition: 0.4s;
+    visibility: hidden;
+}
+
+.scrolltop_icon {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.show-scroll {
+    visibility: visible;
+    bottom: 5rem;
+}
