@@ -438,8 +438,11 @@ img {
     bottom: 5rem;
 }
 
-/* Media Queries */
+/* Screen for small phones  */
 
 @media screen and (max-width: 320px) {
-    
+    .nav_list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem 0.5rem;
+    }
 }
