@@ -437,3 +437,9 @@ img {
     visibility: visible;
     bottom: 5rem;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 320px) {
+    
+}
