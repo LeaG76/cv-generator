@@ -392,16 +392,20 @@ img {
 
 .languages_content {
     gap: 0.2rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 .languages_name {
     margin-bottom: var(--margin-1);
 }
 
+.languages_text {
+    display: inline-block;
+    width: 100px;
+}
+
 .languages_stars {
-    position: absolute;
-    left: 8rem;
+    position: initial;
 }
 
 .languages_stars_checked {
@@ -457,5 +461,62 @@ img {
     .nav_list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem 0.5rem;
+    }
+}
+
+/* Computer screen -> PDF */
+
+@media screen and (min-width: 968px) {
+    body {
+        margin: 3rem 0;
+    }
+
+    .bd-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .l-header,
+    .scrolltop {
+        display: none;
+    }
+
+    .resume {
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        background-color: var(--container-color);
+        box-shadow: 0 0 8px rgba(13, 12, 12, .15);
+    }
+
+    .resume_left {
+        background-color: var(--container-color-alt);
+    }
+
+    .resume_left,
+    .resume_right {
+        padding: 0 1.5rem;
+    }
+
+    .section-title,
+    .profile_description {
+        text-align: initial;
+    }
+
+    .home_container {
+        gap: 1.5rem;
+    }
+
+    .home_button-movil {
+        display: none;
+    }
+
+    .languages_text {
+        width: 150px;
+    }
+
+    .interests_container {
+        grid-template-columns: repeat(4, max-content);
+        column-gap: 3.5rem;
+        padding-left: 2rem;
     }
 }
