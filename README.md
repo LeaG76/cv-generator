@@ -24,3 +24,5 @@
 
 - Intérets : faire un donut chart -> Vue.js ?
 - Compétences : faire des barres
+- Fix zone entre icon et textes dans la zone home et social
+- Fix dark mode

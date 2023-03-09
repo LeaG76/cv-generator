@@ -61,3 +61,19 @@ function scrollTop(){
 }
 
 window.addEventListener('scroll', scrollTop);
+
+/* Light/Dark mode */
+
+const themeButton = document.getElementById('theme-button');
+const darkTheme = 'dark-theme';
+
+themeButton.addEventListener('click', () => {
+    document.body.classList.toggle(darkTheme);
+    if(document.body.classList.contains(darkTheme)) {
+        themeButton.classList.remove('fa-moon');
+        themeButton.classList.add('fa-sun');
+    } else {
+        themeButton.classList.add('fa-moon');
+        themeButton.classList.remove('fa-sun');
+    }
+});
