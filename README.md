@@ -24,4 +24,3 @@
 
 - Intérets : faire un donut chart -> Vue.js ?
 - Compétences : faire des barres
-- Langages : faire etoiles ?
