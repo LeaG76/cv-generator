@@ -362,24 +362,17 @@ img {
 
 /* Skills */
 
-.skills_content,
-.languages_content {
+.skills_content {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.languages_content {
-    gap: 0;
-}
-
-.skills_name,
-.languages_name {
+.skills_name {
     display: flex;
     align-items: center;
-    margin-bottom: var(--margin-3);
+    margin-bottom: var(--margin-2);
 }
 
-.skills_circle,
-.languages_circle {
+.skills_circle {
     display: inline-block;
     width: 5px;
     height: 5px;
@@ -393,6 +386,26 @@ img {
 .certificate_title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--margin-1);
+}
+
+/* Languages */
+
+.languages_content {
+    gap: 0.2rem;
+    padding-left: 1rem;
+}
+
+.languages_name {
+    margin-bottom: var(--margin-1);
+}
+
+.languages_stars {
+    position: absolute;
+    left: 8rem;
+}
+
+.languages_stars_checked {
+    color: var(--text-color-light);
 }
 
 /* Interests */
