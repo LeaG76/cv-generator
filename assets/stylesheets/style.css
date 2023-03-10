@@ -394,22 +394,33 @@ img {
 /* Skills */
 
 .skills_content {
-    grid-template-columns: repeat(2, 1fr);
+    gap: 0.2rem;
+    padding-left: 2rem;
 }
 
 .skills_name {
-    display: flex;
-    align-items: center;
-    margin-bottom: var(--margin-2);
+    margin-bottom: .25rem;
 }
 
-.skills_circle {
+.skills_text {
     display: inline-block;
-    width: 5px;
-    height: 5px;
+    width: 100px;
+}
+
+.skills_box {
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: var(--text-color-light);
+}
+
+.skills_progress {
     background-color: var(--text-color);
-    border-radius: 50%;
-    margin-right: 0.75rem;
+    display: block;
+    height: 10px;
+    border-radius: 6px
 }
 
 /* Certificates */
@@ -432,7 +443,7 @@ img {
 }
 
 .languages_name {
-    margin-bottom: var(--margin-1);
+    margin-bottom: .25rem;
 }
 
 .languages_text {
@@ -441,7 +452,7 @@ img {
 }
 
 .languages_stars {
-    position: initial;
+    position: initial; 
 }
 
 .languages_stars_checked {
@@ -552,6 +563,10 @@ img {
 
     .languages_text {
         width: 150px;
+    }
+
+    .skills_content {
+        padding-left: 0;
     }
 
     .interests_container {
