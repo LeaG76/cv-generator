@@ -331,12 +331,14 @@ img {
 /* Education page */
 
 .education_content,
-.experience_content {
+.experience_content,
+.certificate_content {
     display: flex;
 }
 
 .education_time,
-.experience_time {
+.experience_time,
+.certificate_item {
     padding-right: 1rem;
 }
 
@@ -361,17 +363,20 @@ img {
 }
 
 .education_data,
-.experience_data {
+.experience_data,
+.certificate_data {
     gap: .5rem;
 }
 
 .education_title,
-.experience_title {
+.experience_title,
+.certificate_year {
     font-size: var(--h3-font-size);
 }
 
 .education_studies,
-.experience_company {
+.experience_company,
+.certificate_title {
     font-size: var(--small-font-size);
     color: var(--title-color);
 }
@@ -409,9 +414,19 @@ img {
 
 /* Certificates */
 
-.certificate_title {
+/*.certificate_title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--margin-1);
+}*/
+
+.certificate_rounder {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    margin-right: 0.38rem;
+    margin-left: 0.37rem;
 }
 
 /* Languages */
