@@ -414,16 +414,11 @@ img {
 
 /* Certificates */
 
-/*.certificate_title {
-    font-size: var(--h3-font-size);
-    margin-bottom: var(--margin-1);
-}*/
-
 .certificate_rounder {
     display: inline-block;
     width: 5px;
     height: 5px;
-    background-color: var(--text-color);
+    background-color: var(--text-color-light);
     border-radius: 50%;
     margin-right: 0.38rem;
     margin-left: 0.37rem;
