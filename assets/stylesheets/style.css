@@ -63,7 +63,7 @@ html {
 }
 
 .change-theme:hover {
-    color: var(--title-color)
+    color: var(--title-color);
 }
 
 /* Dark mode */
@@ -74,6 +74,21 @@ body.dark-theme {
     --container-color: #212121;
     --container-color-alt: #181616;
     --body-color: #2B2B2B;
+}
+
+/* Generate PDF Button */
+.generate-pdf {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 2.2rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.generate-pdf:hover {
+    color: var(--title-color);
 }
 
 /* Body */
@@ -542,6 +557,10 @@ img {
     .resume_left,
     .resume_right {
         padding: 0 1.5rem;
+    }
+
+    .generate-pdf {
+        display: inline-block;
     }
 
     .section-title,
