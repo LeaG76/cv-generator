@@ -284,7 +284,10 @@ img {
 
 .home_icon {
     font-size: 1.2rem;
-    margin-right: .75rem;
+    display: flex;
+    width: 25px;
+    justify-content: center;
+    margin-right: 0.75rem;
 }
 
 .home_link {
@@ -334,7 +337,10 @@ img {
 
 .social_icon {
     font-size: 1.2rem;
-    margin-right: .75rem;
+    display: flex;
+    width: 25px;
+    justify-content: center;
+    margin-right: 0.75rem;
 }
 
 /* Profile page */
