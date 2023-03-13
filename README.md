@@ -24,4 +24,3 @@
 
 - Fix zone entre icon et textes dans la zone home et social
 - Fix dark mode
-- Mettre icon dans le menu dans le bon ordre
