@@ -22,5 +22,4 @@
 
 ## TodoList
 
-- Fix zone entre icon et textes dans la zone home et social
 - Fix dark mode
