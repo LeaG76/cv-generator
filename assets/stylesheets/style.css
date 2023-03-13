@@ -372,7 +372,7 @@ img {
 .experience_line {
     display: block;
     width: 2px;
-    height: 110%;
+    height: 115%;
     background-color: var(--text-color-light);
     transform: translate(7px, 0);
 }
@@ -380,7 +380,7 @@ img {
 .education_data,
 .experience_data,
 .certificate_data {
-    gap: .5rem;
+    gap: .35rem;
 }
 
 .education_title,
@@ -439,6 +439,10 @@ img {
 }
 
 /* Certificates */
+
+.certificate_container {
+    gap: 0.75rem;
+}
 
 .certificate_rounder {
     display: inline-block;
