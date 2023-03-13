@@ -454,6 +454,11 @@ img {
     margin-left: 0.37rem;
 }
 
+.certificate_honours {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color);
+}
+
 /* Languages */
 
 .languages_content {
