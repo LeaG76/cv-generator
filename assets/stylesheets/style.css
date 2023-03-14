@@ -77,6 +77,7 @@ body.dark-theme {
 }
 
 /* Generate PDF Button */
+
 .generate-pdf {
     display: none;
     position: absolute;
@@ -89,6 +90,129 @@ body.dark-theme {
 
 .generate-pdf:hover {
     color: var(--title-color);
+}
+
+/* Scale CV */
+
+body.scale-cv {
+    --h1-font-size: 0.938rem;
+    --h2-font-size: 0.938rem;
+    --h3-font-size: 0.875rem;
+    --normal-font-size: 0.813rem;
+    --small-font-size: 0.75rem;
+    --smaller-font-size: 0.688rem;
+}
+
+/* PDF A4 */
+
+.scale-cv .change-theme, 
+.scale-cv .generate-pdf  {
+    display: none;
+}
+
+.scale-cv .bd-container {
+    max-width: 595px;
+}
+
+.scale-cv .section {
+    padding: 1.5rem 0 0.80rem;
+}
+
+.scale-cv .section-title {
+    margin-bottom: 0.75rem;
+}
+
+.scale-cv .resume_left,
+.scale-cv .resume_right {
+    padding: 0 1rem;
+}
+
+.scale-cv .home_img {
+    width: 90px;
+    height: 90px;
+}
+
+.scale-cv .home_container {
+    gap: 1.5rem;
+}
+
+.scale-cv .home_data {
+    gap: 0.25rem;
+}
+
+.scale-cv .home_address,
+.scale-cv .social_container {
+    gap: 0.75rem;
+}
+
+.scale-cv .home_icon,
+.scale-cv .social_icon,
+.scale-cv .interests_icon {
+    font-size: 1rem;
+}
+
+.scale-cv .education_container, 
+.scale-cv .experience_container, 
+.scale-cv .certificate_container {
+    gap: 1rem;
+    max-width: 340px;
+}
+
+.scale-cv .education_time,
+.scale-cv .experience_time,
+.scale-cv .certificate_item {
+    padding-right: 0.5rem;
+}
+
+.scale-cv .education_rounder,
+.scale-cv .experience_rounder {
+    width: 11px;
+    height: 11px;
+    margin-top: 0.22rem;
+}
+
+.scale-cv .education_line,
+.scale-cv .experience_line {
+    width: 2px;
+    height: 110%;
+    transform: translate(4.5px, 0);
+}
+
+.scale-cv .education_data,
+.scale-cv .experience_data,
+.scale-cv .certificate_data {
+    gap: 0.25rem;
+}
+
+.scale-cv .certificate_rounder {
+    width: 4px;
+    height: 4px;
+}
+
+.scale-cv .interests_container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    max-width: 320px;
+    padding-left: 0;
+}
+
+.scale-cv .skills_text {
+    width: 85px;
+}
+
+.scale-cv .skills_box {
+    width: 100px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.scale-cv .skills_progress {
+    height: 8px;
+    border-radius: 4px;
+}
+
+.scale-cv .languages_text {
+    width: 100px;
 }
 
 /* Body */
@@ -441,7 +565,7 @@ img {
     background-color: var(--text-color);
     display: block;
     height: 10px;
-    border-radius: 6px
+    border-radius: 6px;
 }
 
 /* Certificates */
