@@ -111,7 +111,7 @@ body.scale-cv {
 }
 
 .scale-cv .bd-container {
-    max-width: 595px;
+    max-width: 695px;
 }
 
 .scale-cv .section {
@@ -122,14 +122,22 @@ body.scale-cv {
     margin-bottom: 0.75rem;
 }
 
+.scale-cv .resume {
+    height: 1122px;
+}
+
+.scale-cv .resume_left {
+    width: 250px;
+}
+
 .scale-cv .resume_left,
 .scale-cv .resume_right {
-    padding: 0 1rem;
+    padding: 0 1rem 0 1.25rem
 }
 
 .scale-cv .home_img {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
 }
 
 .scale-cv .home_container {
@@ -154,8 +162,8 @@ body.scale-cv {
 .scale-cv .education_container, 
 .scale-cv .experience_container, 
 .scale-cv .certificate_container {
+    width: 500px;
     gap: 1rem;
-    max-width: 340px;
 }
 
 .scale-cv .education_time,
@@ -173,9 +181,9 @@ body.scale-cv {
 
 .scale-cv .education_line,
 .scale-cv .experience_line {
-    width: 2px;
-    height: 110%;
-    transform: translate(4.5px, 0);
+    width: 6px;
+    height: 115%;
+    transform: translate(4.5px, -3px);
 }
 
 .scale-cv .education_data,
@@ -189,11 +197,8 @@ body.scale-cv {
     height: 4px;
 }
 
-.scale-cv .interests_container {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1rem;
-    max-width: 320px;
-    padding-left: 0;
+.scale-cv .skills_content {
+    gap: 0.25rem;
 }
 
 .scale-cv .skills_text {
@@ -209,6 +214,10 @@ body.scale-cv {
 .scale-cv .skills_progress {
     height: 8px;
     border-radius: 4px;
+}
+
+.scale-cv .languages_content {
+    gap: 0.25rem;
 }
 
 .scale-cv .languages_text {
