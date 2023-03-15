@@ -1,3 +1,22 @@
+/* Set picture in url base 64 */
+
+const img = document.getElementById('home-img');
+
+fetch('assets/pictures/profile.txt', {
+    mode: 'no-cors',
+    headers: {
+        'Access-Control-Allow-Origin':'*'
+    }
+})
+.then((response) => response.text())
+.then((result) => {
+    console.log('Success:', result);
+    img.src = result;
+})
+.catch((error) => {
+    console.error('Error:', error);
+});
+
 /* Show Menu */
 
 const showMenu = (toggleId, navId) => {
