@@ -60,4 +60,3 @@ by this :
 ## TodoList
 
 - Fix dark mode
-- Button download version mobile -> afficher un pdf différent entre mode dark/light

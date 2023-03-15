@@ -78,6 +78,18 @@ themeButton.addEventListener('click', () => {
     }
 });
 
+/* Link PDF Download on Mobile screen depending of the light/dark mode */
+
+const downloadButton = document.getElementById('download-button');
+
+downloadButton.addEventListener('click', () => {
+    if(document.body.classList.contains(darkTheme)) {
+        downloadButton.href="assets/pdf/myResume-dark.pdf"; 
+    } else {
+        downloadButton.href="assets/pdf/myResume-light.pdf"; 
+    }
+});
+
 /* Reduce the size and print on an A4 sheet */
 
 function addScaleCV() {
