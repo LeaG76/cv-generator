@@ -55,13 +55,11 @@
 
 <details open>
   <summary><b>Local server</b></summary>
-  <br/>
   As said before, to be able to use this project, you will have to be connected to a local server
 </details>
 
 <details open>
   <summary><b>Convert your profile picture into an url in Base64</b></summary>
-  <br/>
   Convert your logo image to Base64 and replace this :
 
 ```html
