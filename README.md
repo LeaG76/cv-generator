@@ -45,6 +45,12 @@
 
 > **Warning** : To carry out this project, you must be connected to a local server, more particularly for the generation in PDF and for the display of the image from the txt file. More details [below](#configuration "Go to configuration")
 
+### Customize your resume CV
+
+- changer palette couleur
+- changer police
+- changer icons Font Awesome
+
 ### Configuration
 
 Convert your logo image to Base64 and replace this :
