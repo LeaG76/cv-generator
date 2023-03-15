@@ -57,6 +57,8 @@
   <summary><b>Local server</b></summary>
   <br>
   As said before, to be able to use this project, you will have to be connected to a local server
+  
+  Plusieurs éditeurs de textes ont la fonctionnalité de local server (like VSCode, SublimeText, Atom, ...)
 </details>
 
 <details open>
