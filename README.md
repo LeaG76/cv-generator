@@ -43,6 +43,8 @@
 
 ## Get started
 
+> **Warning** : To carry out this project, you must be connected to a local server, more particularly for the generation in PDF and for the display of the image from the txt file. More details [below](#configuration "Go to configuration")
+
 ### Configuration
 
 Convert your logo image to Base64 and replace this :
@@ -60,3 +62,4 @@ by this :
 ## TodoList
 
 - Fix dark mode
+- Change html2pdf Version 0.8.0 -> 0.9.3
