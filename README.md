@@ -48,6 +48,8 @@ CV Generator is an HTML5, CSS3 and Javascript only project
 - [x] Light/dark mode toggle
 - [x] Download to PDF
 
+---
+
 ## Get started
 
 To start, let's go clone the project :
@@ -119,6 +121,8 @@ by this :
 <img src="your_base64_url" alt="Icon picture" class="home_img">
 ```
 </details>
+
+---
 
 ## Examples
 
