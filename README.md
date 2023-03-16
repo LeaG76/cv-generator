@@ -31,10 +31,6 @@
   <img alt="Repo size" src="https://img.shields.io/github/repo-size/leag76/cv-generator?color=%23C1AC95&logo=github&logoColor=white" />
 </p>
 
-<p align="center">
-  <sup>Version 1.0</sup>
-</p>
-
 ## About
 
 CV Generator is an HTML5, CSS3 and Javascript only project
@@ -66,10 +62,10 @@ CV Generator is an HTML5, CSS3 and Javascript only project
   
   Plusieurs éditeurs de textes ont la fonctionnalité de local server (like VSCode, SublimeText, Atom, ...)
 
-  > If you can't connect to a local server, no problem, don't worry! You can simply upgrade to an older version of **html2pdf.js**. Version *0.8.0* can save a pdf by just launching the `.html` file on a browser without going through a local server
+  > **But** If you can't connect to a local server, no problem, don't worry! You can simply upgrade to an older version of **html2pdf.js**. Version *0.8.0* can save a pdf by just launching the `.html` file on a browser without going through a local server
 </details>
 
-<details open>
+<details close>
   <summary><b>Convert your profile picture into an url in Base64</b></summary>
   <br>
 
