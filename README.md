@@ -79,8 +79,8 @@ Then, open it from your favorite IDE, normally you should have this project stru
 
 You can therefore modify the index.html file to put your information. If you want different icons, you can go to [Font Awesome](https://fontawesome.com/search?m=free&o=r "Go to Font Awesome") and select icons from a large selection of free and open-source icons
 
-> **Warning** : To carry out this project, you must be connected to a *local server*, more particularly for the generation in **PDF** and for the display of the image from the txt file. More details [below](#configuration "Go to configuration")
->> If you can't connect to a local server, no problem, don't worry! You can simply upgrade to an older version of **html2pdf.js**. Version *0.8.0* can save a pdf by just launching the `.html` file on a browser without going through a local server
+> <sub>**Warning** : To carry out this project, you must be connected to a *local server*, more particularly for the generation in **PDF** and for the display of the image from the txt file. More details [below](#configuration "Go to configuration")</sub>
+>> <sub>If you can't connect to a local server, no problem, don't worry! You can simply upgrade to an older version of **html2pdf.js**. Version *0.8.0* can save a pdf by just launching the `.html` file on a browser without going through a local server</sub>
 
 ### Customize your resume CV
 
