@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">CV Generator</h1>
-  <h4 align="center">Resume CV with PDF export</h4>
+  <h4 align="center">Resume CV with dark/light mode and PDF export</h4>
 </p>
 
 <p align="center">
@@ -62,10 +62,10 @@ CV Generator is an HTML5, CSS3 and Javascript only project
   
   Plusieurs éditeurs de textes ont la fonctionnalité de local server (like VSCode, SublimeText, Atom, ...)
 
-  > If you can't connect to a local server, no problem, don't worry! You can simply upgrade to an older version of **html2pdf.js**. Version *0.8.0* can save a pdf by just launching the `.html` file on a browser without going through a local server
+  > **But** If you can't connect to a local server, no problem, don't worry! You can simply upgrade to an older version of **html2pdf.js**. Version *0.8.0* can save a pdf by just launching the `.html` file on a browser without going through a local server
 </details>
 
-<details open>
+<details close>
   <summary><b>Convert your profile picture into an url in Base64</b></summary>
   <br>
 
