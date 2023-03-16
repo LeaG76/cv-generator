@@ -70,6 +70,7 @@ Then, open it from your favorite IDE, normally you should have this project stru
 │   │   └── myResume-light.pdf
 │   ├── pictures/
 │   │   ├── favicon/
+│   │   │   └── ...
 │   │   ├── profile.png
 │   │   └── profile.txt
 │   └── stylesheets/

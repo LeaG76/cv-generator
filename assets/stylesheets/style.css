@@ -128,11 +128,11 @@ body.scale-cv {
 
 .scale-cv .resume_left {
     width: 250px;
+    padding: 0 1.25rem;
 }
 
-.scale-cv .resume_left,
 .scale-cv .resume_right {
-    padding: 0 1rem 0 1.25rem
+    padding: 0 1rem 0 1.25rem;
 }
 
 .scale-cv .home_img {
@@ -200,10 +200,6 @@ body.scale-cv {
     gap: 0.25rem;
 }
 
-.scale-cv .skills_text {
-    width: 85px;
-}
-
 .scale-cv .skills_box {
     width: 100px;
     height: 8px;
@@ -221,7 +217,7 @@ body.scale-cv {
 }
 
 .scale-cv .languages_text {
-    width: 100px;
+    width: 115px;
 }
 
 /* Body */
