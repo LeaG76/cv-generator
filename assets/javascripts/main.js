@@ -2,7 +2,7 @@
 
 const img = document.getElementById('home-img');
 
-fetch('assets/pictures/profile.txt', {
+/*fetch('assets/pictures/profile.txt', {
     mode: 'no-cors',
     headers: {
         'Access-Control-Allow-Origin':'*'
@@ -11,11 +11,11 @@ fetch('assets/pictures/profile.txt', {
 .then((response) => response.text())
 .then((result) => {
     console.log('Success:', result);
-    img.src = result;
+    //img.src = result;
 })
 .catch((error) => {
     console.error('Error:', error);
-});
+});*/
 
 /* Show Menu */
 
@@ -130,6 +130,8 @@ let areaCV = document.getElementById('area-cv');
 let resumeButton = document.getElementById("resume-button");
 
 // html2pdf.js options
+
+// TODO : change filename depending of the light/dark mode
 let opt = {
     margin:       0,
     filename:     'myResume.pdf',

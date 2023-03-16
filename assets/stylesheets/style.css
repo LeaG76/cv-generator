@@ -181,9 +181,8 @@ body.scale-cv {
 
 .scale-cv .education_line,
 .scale-cv .experience_line {
-    width: 6.5px;
-    height: 115%;
-    transform: translate(4.25px, -3px);
+    width: 2px;
+    transform: translate(4.4px, -2px);
 }
 
 .scale-cv .education_data,
@@ -214,6 +213,7 @@ body.scale-cv {
 .scale-cv .skills_progress {
     height: 8px;
     border-radius: 4px;
+    transform: translate(0.01px,0);
 }
 
 .scale-cv .languages_content {
