@@ -50,6 +50,35 @@ CV Generator is an HTML5, CSS3 and Javascript only project
 
 ## Get started
 
+To start, let's go clone the project :
+
+```
+git clone https://github.com/LeaG76/cv-generator.git
+```
+
+Then, open it from your favorite IDE, normally you should have this project structure:
+
+```bash
+├── assets/
+│   ├── javascripts/
+│   │   ├── main.js
+│   │   └── html2pdf.bundle.min.js
+│   ├── pdf/
+│   │   ├── myResume-dark.pdf
+│   │   └── myResume-light.pdf
+│   ├── pictures/
+│   │   ├── favicon/
+│   │   ├── profile.png
+│   │   └── profile.txt
+│   └── stylesheets/
+│       ├── layout.css
+│       └── style.css
+├── index.html
+└── README.md
+```
+
+You can therefore modify the index.html file to put your information. If you want different icons, you can go to [Font Awesome](https://fontawesome.com/search?m=free&o=r "Go to Font Awesome") and select icons from a large selection of free and open-source icons
+
 > **Warning** : To carry out this project, you must be connected to a *local server*, more particularly for the generation in **PDF** and for the display of the image from the txt file. More details [below](#configuration "Go to configuration")
 >> If you can't connect to a local server, no problem, don't worry! You can simply upgrade to an older version of **html2pdf.js**. Version *0.8.0* can save a pdf by just launching the `.html` file on a browser without going through a local server
 
