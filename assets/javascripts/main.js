@@ -129,20 +129,30 @@ let areaCV = document.getElementById('area-cv');
 // Button
 let resumeButton = document.getElementById("resume-button");
 
-// html2pdf.js options
-
-// TODO : change filename depending of the light/dark mode
-let opt = {
-    margin:       0,
-    filename:     'myResume.pdf',
-    image:        { type: 'jpeg', quality: 0.98 },
-    html2canvas:  { scale: 4, useCORS: true },
-    jsPDF:        { format: 'a4', orientation: 'portrait' }
-  };
-
 // Generate PDF with html2pdf.js
 function generateResume() {
-    html2pdf(areaCV, opt);
+    // PDF filename change depending of the light/dark mode
+    if(document.body.classList.contains(darkTheme)) {
+        // html2pdf.js options
+        let opt = {
+            margin:       0,
+            filename:     'myResume-dark.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { scale: 4, useCORS: true },
+            jsPDF:        { format: 'a4', orientation: 'portrait' }
+        };
+        html2pdf(areaCV, opt);
+    } else {
+        // html2pdf.js options
+        let opt = {
+            margin:       0,
+            filename:     'myResume-light.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { scale: 4, useCORS: true },
+            jsPDF:        { format: 'a4', orientation: 'portrait' }
+        };
+        html2pdf(areaCV, opt);
+    } 
 }
 
 // Action executed by clicking on the button => generation of the final PDF CV CV
