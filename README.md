@@ -77,9 +77,8 @@ by this :
 ```
 </details>
 
-
-
 ## TodoList
 
 - Fix dark mode
 - Change html2pdf Version 0.8.0 -> 0.9.3
+- Création d'un fichier js dans lequel on met le contenu du CV
