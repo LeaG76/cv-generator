@@ -37,6 +37,11 @@ CV Generator is an HTML5, CSS3 and Javascript only project
 
 > The project was created by inspiring me from the <a href="https://github.com/bedimcode">bedimcode</a> project called Responsive Resume Cv Smith (project link: <a href="https://github.com/bedimcode/responsive-resume-cv-smith">responsive-resume-cv-smith</a>) and watching the associated Youtube video of Bedimcode: <a href="https://www.youtube.com/watch?v=oYjseP_Qhv4">Responsive Resume Cv Website Using HTML CSS And JavaScript | Light/Dark Theme & Export PDF</a>
 
+### Tools
+
+- Font Awesome
+- html2pdf.js
+
 ### Features
 
 - [x] Mobile screen mode
@@ -45,7 +50,8 @@ CV Generator is an HTML5, CSS3 and Javascript only project
 
 ## Get started
 
-> **Warning** : To carry out this project, you must be connected to a local server, more particularly for the generation in PDF and for the display of the image from the txt file. More details [below](#configuration "Go to configuration")
+> **Warning** : To carry out this project, you must be connected to a *local server*, more particularly for the generation in **PDF** and for the display of the image from the txt file. More details [below](#configuration "Go to configuration")
+>> If you can't connect to a local server, no problem, don't worry! You can simply upgrade to an older version of **html2pdf.js**. Version *0.8.0* can save a pdf by just launching the `.html` file on a browser without going through a local server
 
 ### Customize your resume CV
 
@@ -61,8 +67,6 @@ CV Generator is an HTML5, CSS3 and Javascript only project
   As said before, to be able to use this project, you will have to be connected to a local server
   
   Plusieurs éditeurs de textes ont la fonctionnalité de local server (like VSCode, SublimeText, Atom, ...)
-
-  > **But** If you can't connect to a local server, no problem, don't worry! You can simply upgrade to an older version of **html2pdf.js**. Version *0.8.0* can save a pdf by just launching the `.html` file on a browser without going through a local server
 </details>
 
 <details close>
