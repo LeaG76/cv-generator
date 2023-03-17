@@ -37,18 +37,18 @@ CV Generator is an **HTML5**, **CSS3** and **Javascript** only project that allo
 
 This project is obviously **responsive**: for *desktop*, *laptop* and *tablet* screens, the CV will be displayed in its classic form as a PDF. While for *mobile phone* screens, this one will be presented as a small showcase website.
 
+To export the CV in PDF format, the **html2pdf.js** library was used and the version is *0.9.3* (this is the most stable version). html2pdf.js is a Client-side HTML-to-PDF rendering using pure JS, she converts any webpage or element into a printable PDF entirely client-side using **html2canvas** and **jsPDF**. ([html2pdf.js Github repo](https://github.com/eKoopmans/html2pdf.js "Go to the html2pdf.js Github repo")).
+
+For the icons, the Internet's icon library and toolkit **Font Awesome** was used.
+
 > <sub>The project was created by inspiring me from the <a href="https://github.com/bedimcode">bedimcode</a> project called **Responsive Resume Cv Smith** (project link: <a href="https://github.com/bedimcode/responsive-resume-cv-smith">responsive-resume-cv-smith</a>) and watching the associated Youtube video of Bedimcode: <a href="https://www.youtube.com/watch?v=oYjseP_Qhv4">Responsive Resume Cv Website Using HTML CSS And JavaScript | Light/Dark Theme & Export PDF</a></sub>
-
-### Tools
-
-- Font Awesome
-- html2pdf.js
 
 ### Features
 
-- [x] Mobile screen mode
 - [x] Light/dark mode toggle
 - [x] Download to PDF
+- [x] Responsive
+- [x] Mobile screen mode
 
 ## Demo
 
