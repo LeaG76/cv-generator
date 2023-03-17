@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-    <img alt="CSS" src="https://img.shields.io/badge/-CSS-0068BA?style=flat&logo=css3&logoColor=white" />
+    <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-0068BA?style=flat&logo=css3&logoColor=white" />
   </a>
 
   <a href="https://fontawesome.com/">
