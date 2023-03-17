@@ -4,8 +4,8 @@
  │ @author       Léa Gallier                                            │
  │ @version      1.0                                                    │
  │ @created      2022-12-19                                             │
- │ @modified     2023-03-09                                             │
- │ @description  Responsive CV generation with PDF export               │
+ │ @modified     2023-03-17                                             │
+ │ @description  Resume CV with dark/light mode and PDF export          │
  └──────────────────────────────────────────────────────────────────────┘
 -->
 
@@ -35,6 +35,7 @@
 
   <body>
     <header class="l-header" id="header">
+        <!-- Nav menu -->
         <nav class="nav bd-container">
             <a href="#" class="nav_logo">Léa GALLIER</a>
             <div class="nav_menu" id="nav-menu">
@@ -98,11 +99,11 @@
     </header>
 
     <main class="l-main bd-container">
-        <!-- All elements within this div, is generated in PDF -->
+        <!-- Resume CV -->
         <div class="resume" id="area-cv">
             <div class="resume_left">
 
-                <!--========== HOME ==========-->
+                <!-- HOME -->
                 <section class="home" id="home">
                     <div class="home_container section bd-grid">
 
@@ -141,7 +142,7 @@
 
                 </section>          
                 
-                <!--========== SOCIAL ==========-->
+                <!-- SOCIAL -->
                 <section class="social section">
                     <h2 class="section-title">Social</h2>
 
@@ -158,7 +159,7 @@
                     </div>
                 </section>
 
-                <!--========== PROFILE ==========-->
+                <!-- PROFILE -->
                 <section class="profile section" id="profile">
                     <h2 class="section-title">Profile</h2>
 
@@ -167,7 +168,7 @@
                     </p>
                 </section>
 
-                <!--========== SKILLS  ==========-->
+                <!-- SKILLS  -->
                 <section class="skills section" id="skills">
                     <h2 class="section-title">Skills</h2>
                     <div class="skills_container">
@@ -207,7 +208,7 @@
                          
                 </section>
 
-                <!--========== LANGUAGES ==========-->
+                <!-- LANGUAGES -->
                 <section class="languages section" id="languages">
                     <h2 class="section-title">Languages</h2>
 
@@ -239,7 +240,7 @@
 
             <div class="resume_right">
 
-                <!--========== EXPERIENCE ==========-->
+                <!-- EXPERIENCE -->
                 <section class="experience section" id="experience">
                     <h2 class="section-title">Experience</h2>
 
@@ -274,7 +275,7 @@
                     </div>
                 </section>
 
-                <!--========== CERTIFICATES ==========-->
+                <!-- CERTIFICATES -->
                 <section class="certificate section" id="certificates">
                     <h2 class="section-title">Certificates</h2>
 
@@ -313,7 +314,7 @@
                     </div>
                 </section>
 
-                <!--========== EDUCATION ==========-->
+                <!-- EDUCATION -->
                 <section class="education section" id="education">
                     <h2 class="section-title">Education</h2>
 
@@ -353,7 +354,7 @@
                     </div>
                 </section>
                 
-                <!--========== INTERESTS ==========-->
+                <!-- INTERESTS -->
                 <section class="interests section" id="interests">
                     <h2 class="section-title">Interests</h2>
                     <div class="interests_container bd-grid">
