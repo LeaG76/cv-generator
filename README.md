@@ -76,13 +76,16 @@ Then, open it from your favorite text editor or IDE, normally you should have th
 ├── assets/
 │   ├── javascripts/
 │   │   ├── main.js
-│   │   └── html2pdf.bundle.min.js
+│   │   ├── html2pdf.v0.8.0.bundle.min.js
+│   │   └── html2pdf.v0.9.3.bundle.min.js
 │   ├── pdf/
-│   │   ├── myResume-dark.pdf
-│   │   └── myResume-light.pdf
+│   │   ├── myResumeCV-dark.pdf
+│   │   └── myResumeCV-light.pdf
 │   ├── pictures/
 │   │   ├── favicon/
 │   │   │   └── ...
+│   │   ├── results/
+│   │   │   └── myResumeCV-light.png
 │   │   ├── profile.png
 │   │   └── profile.txt
 │   └── stylesheets/
@@ -125,6 +128,11 @@ by this :
 ```html
 <img src="your_base64_url" alt="Icon picture" class="home_img">
 ```
+</details>
+
+<details close>
+  <summary><b>Create multiples size Favicons</b></summary>
+  <br>
 </details>
 
 ## Usage

@@ -103,9 +103,9 @@ const downloadButton = document.getElementById('download-button');
 
 downloadButton.addEventListener('click', () => {
     if (document.body.classList.contains(darkTheme)) {
-        downloadButton.href = "assets/pdf/myResume-dark.pdf";
+        downloadButton.href = "assets/pdf/myResumeCV-dark.pdf";
     } else {
-        downloadButton.href = "assets/pdf/myResume-light.pdf";
+        downloadButton.href = "assets/pdf/myResumeCV-light.pdf";
     }
 });
 
@@ -136,7 +136,7 @@ function generateResume() {
         // html2pdf.js options
         let opt = {
             margin: 0,
-            filename: 'myResume-dark.pdf',
+            filename: 'myResumeCV-dark.pdf',
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 4, useCORS: true },
             jsPDF: { format: 'a4', orientation: 'portrait' }
@@ -146,7 +146,7 @@ function generateResume() {
         // html2pdf.js options
         let opt = {
             margin: 0,
-            filename: 'myResume-light.pdf',
+            filename: 'myResumeCV-light.pdf',
             image: { type: 'jpeg', quality: 0.98 },
             html2canvas: { scale: 4, useCORS: true },
             jsPDF: { format: 'a4', orientation: 'portrait' }
