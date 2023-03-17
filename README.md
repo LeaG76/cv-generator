@@ -37,7 +37,7 @@ CV Generator is an **HTML5**, **CSS3** and **Javascript** only project that allo
 
 This project is obviously **responsive**: for *desktop*, *laptop* and *tablet* screens, the CV will be displayed in its classic form as a PDF. While for *mobile phone* screens, this one will be presented as a small showcase website.
 
-To export the CV in PDF format, the **html2pdf.js** library was used and the version is *0.9.3* (this is the most stable version). html2pdf.js is a Client-side HTML-to-PDF rendering using pure JS, she converts any webpage or element into a printable PDF entirely client-side using **html2canvas** and **jsPDF**. ([html2pdf.js Github repo](https://github.com/eKoopmans/html2pdf.js "Go to the html2pdf.js Github repo")).
+To export the CV in PDF format, the **html2pdf.js** library was used and the version is *0.9.3*. (this is the most stable version) html2pdf.js is a Client-side HTML-to-PDF rendering using pure JS, she converts any webpage or element into a printable PDF entirely client-side using **html2canvas** and **jsPDF**. ([html2pdf.js Github repo](https://github.com/eKoopmans/html2pdf.js "Go to the html2pdf.js Github repo")).
 
 For the icons, the Internet's icon library and toolkit **Font Awesome** was used.
 
@@ -45,10 +45,13 @@ For the icons, the Internet's icon library and toolkit **Font Awesome** was used
 
 ### Features
 
+This is the **first version** of the project (*v1.0*). To improve the project in a new version (*v2.0*), CV customization could be added: choice of a color palette other than white/black, addition of other less common sections. But also adding data in a `.js` file instead of touching the `index.html` file.
+
 - [x] Light/dark mode toggle
 - [x] Download to PDF
 - [x] Responsive
 - [x] Mobile screen mode
+- [ ] Customization
 
 ## Demo
 
