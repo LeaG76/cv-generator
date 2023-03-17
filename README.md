@@ -33,7 +33,9 @@
 
 ## About
 
-CV Generator is an HTML5, CSS3 and Javascript only project
+CV Generator is an HTML5, CSS3 and Javascript only project that allows you to create a modern, clean and personalized CV according to your tastes. It also allows you to have a CV in dark mode but also to be able to export it directly in PDF format.
+
+This project is obviously responsive: for desktop, laptop and tablet screens, the CV will be displayed in its classic form as a PDF. While for mobile phone screens, this one will be presented as a small showcase website.
 
 > <sub>The project was created by inspiring me from the <a href="https://github.com/bedimcode">bedimcode</a> project called Responsive Resume Cv Smith (project link: <a href="https://github.com/bedimcode/responsive-resume-cv-smith">responsive-resume-cv-smith</a>) and watching the associated Youtube video of Bedimcode: <a href="https://www.youtube.com/watch?v=oYjseP_Qhv4">Responsive Resume Cv Website Using HTML CSS And JavaScript | Light/Dark Theme & Export PDF</a></sub>
 
