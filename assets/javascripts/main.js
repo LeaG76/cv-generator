@@ -22,9 +22,9 @@ const img = document.getElementById('home-img');
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId);
     nav = document.getElementById(navId);
-    
+
     // Validate that variables exist
-    if(toggle && nav){
+    if (toggle && nav) {
         toggle.addEventListener('click', () => {
             // We add the show-menu class to the div tag with the nav__menu class
             nav.classList.toggle('show-menu');
@@ -32,13 +32,13 @@ const showMenu = (toggleId, navId) => {
     }
 }
 
-showMenu('nav-toggle','nav-menu');
+showMenu('nav-toggle', 'nav-menu');
 
 /* Remove menu mobile */
 
 const navLink = document.querySelectorAll('.nav_link');
 
-function linkAction(){
+function linkAction() {
     const navMenu = document.getElementById('nav-menu');
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu');
@@ -50,7 +50,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 
 const sections = document.querySelectorAll('section[id]');
 
-function scrollActive(){
+function scrollActive() {
     const scrollY = window.pageYOffset;
 
     sections.forEach(current => {
@@ -58,7 +58,7 @@ function scrollActive(){
         const sectionTop = current.offsetTop - 50;
         sectionId = current.getAttribute('id');
 
-        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.add('active-link');
         } else {
             document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.remove('active-link');
@@ -70,9 +70,9 @@ window.addEventListener('scroll', scrollActive);
 
 /* Show scroll top */
 
-function scrollTop(){
+function scrollTop() {
     const scrollTop = document.getElementById('scroll-top');
-    if(this.scrollY >= 200) {
+    if (this.scrollY >= 200) {
         scrollTop.classList.add('show-scroll');
     } else {
         scrollTop.classList.remove('show-scroll');
@@ -88,7 +88,7 @@ const darkTheme = 'dark-theme';
 
 themeButton.addEventListener('click', () => {
     document.body.classList.toggle(darkTheme);
-    if(document.body.classList.contains(darkTheme)) {
+    if (document.body.classList.contains(darkTheme)) {
         themeButton.classList.remove('fa-moon');
         themeButton.classList.add('fa-sun');
     } else {
@@ -102,10 +102,10 @@ themeButton.addEventListener('click', () => {
 const downloadButton = document.getElementById('download-button');
 
 downloadButton.addEventListener('click', () => {
-    if(document.body.classList.contains(darkTheme)) {
-        downloadButton.href="assets/pdf/myResume-dark.pdf"; 
+    if (document.body.classList.contains(darkTheme)) {
+        downloadButton.href = "assets/pdf/myResume-dark.pdf";
     } else {
-        downloadButton.href="assets/pdf/myResume-light.pdf"; 
+        downloadButton.href = "assets/pdf/myResume-light.pdf";
     }
 });
 
@@ -132,27 +132,27 @@ let resumeButton = document.getElementById("resume-button");
 // Generate PDF with html2pdf.js
 function generateResume() {
     // PDF filename change depending of the light/dark mode
-    if(document.body.classList.contains(darkTheme)) {
+    if (document.body.classList.contains(darkTheme)) {
         // html2pdf.js options
         let opt = {
-            margin:       0,
-            filename:     'myResume-dark.pdf',
-            image:        { type: 'jpeg', quality: 0.98 },
-            html2canvas:  { scale: 4, useCORS: true },
-            jsPDF:        { format: 'a4', orientation: 'portrait' }
+            margin: 0,
+            filename: 'myResume-dark.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 4, useCORS: true },
+            jsPDF: { format: 'a4', orientation: 'portrait' }
         };
         html2pdf(areaCV, opt);
     } else {
         // html2pdf.js options
         let opt = {
-            margin:       0,
-            filename:     'myResume-light.pdf',
-            image:        { type: 'jpeg', quality: 0.98 },
-            html2canvas:  { scale: 4, useCORS: true },
-            jsPDF:        { format: 'a4', orientation: 'portrait' }
+            margin: 0,
+            filename: 'myResume-light.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 4, useCORS: true },
+            jsPDF: { format: 'a4', orientation: 'portrait' }
         };
         html2pdf(areaCV, opt);
-    } 
+    }
 }
 
 // Action executed by clicking on the button => generation of the final PDF CV CV

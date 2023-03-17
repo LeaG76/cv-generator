@@ -105,8 +105,8 @@ body.scale-cv {
 
 /* PDF A4 */
 
-.scale-cv .change-theme, 
-.scale-cv .generate-pdf  {
+.scale-cv .change-theme,
+.scale-cv .generate-pdf {
     display: none;
 }
 
@@ -159,8 +159,8 @@ body.scale-cv {
     font-size: 1rem;
 }
 
-.scale-cv .education_container, 
-.scale-cv .experience_container, 
+.scale-cv .education_container,
+.scale-cv .experience_container,
 .scale-cv .certificate_container {
     width: 500px;
     gap: 1rem;
@@ -209,7 +209,7 @@ body.scale-cv {
 .scale-cv .skills_progress {
     height: 8px;
     border-radius: 4px;
-    transform: translate(0.01px,0);
+    transform: translate(0.01px, 0);
 }
 
 .scale-cv .languages_content {
@@ -231,11 +231,17 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3, ul, p {
+h1,
+h2,
+h3,
+ul,
+p {
     margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
@@ -291,7 +297,7 @@ img {
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
-    box-shadow: 0 -1px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
     transition: all 0.5s ease;
 }
 
@@ -301,7 +307,7 @@ img {
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
 }
 
 @media screen and (max-width: 968px) {
@@ -312,7 +318,7 @@ img {
         width: 100%;
         padding: 2rem 1.5rem;
         background-color: var(--body-color);
-        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
         border-radius: 1rem 1rem 0 0;
         z-index: var(--z-fixed);
         transition: all 0.5s ease;
@@ -327,7 +333,7 @@ img {
 
 .nav_toggle {
     font-size: 1.2rem;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
 .nav_list {
@@ -611,7 +617,7 @@ img {
 }
 
 .languages_stars {
-    position: initial; 
+    position: initial;
 }
 
 .languages_stars_checked {
