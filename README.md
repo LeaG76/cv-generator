@@ -65,7 +65,7 @@ To start, let's go clone the project:
 git clone https://github.com/LeaG76/cv-generator.git
 ```
 
-Then, open it from your favorite IDE, normally you should have this project structure:
+Then, open it from your favorite text editor or IDE, normally you should have this project structure:
 
 ```bash
 ├── assets/
