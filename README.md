@@ -108,9 +108,9 @@ Then, open it from your favorite text editor or IDE, normally you should have th
   Plusieurs éditeurs de textes ont la fonctionnalité de local server (like VSCode, SublimeText, Atom, ...)
 
   <p align="center">
-    <img alt="Live Server" src="previews/live-server.png" height="200px" />
-    <img alt="Go Live" src="previews/go-live.png" height="25px" />
-    <img alt="Port 5500" src="previews/port-5500.png" height="25px" />
+    <img alt="Live Server" src="previews/live-server.png" /></br>
+    <img alt="Go Live" src="previews/go-live.png" />
+    <img alt="Port 5500" src="previews/port-5500.png" />
   </p>
 </details>
 
