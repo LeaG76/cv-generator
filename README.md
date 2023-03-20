@@ -118,6 +118,8 @@ Then, open it from your favorite text editor or IDE, normally you should have th
   <summary><b>Convert your profile picture into an url in Base64</b></summary>
   <br>
 
+  To convert your image to a Base64 url, you can go to websites allowing this action to be carried out such as: [Base64 Image](https://www.base64-image.de/ "Go to Base64 Image") or [elmah.io](https://elmah.io/tools/base64-image-encoder "Go to elmah.io")
+
   Plusieurs façons :
 
   - Avec un serveur local (fichier main.js -> profile.txt)
