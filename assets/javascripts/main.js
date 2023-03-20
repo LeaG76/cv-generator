@@ -84,16 +84,33 @@ window.addEventListener('scroll', scrollTop);
 /* Light/Dark mode */
 
 const themeButton = document.getElementById('theme-button');
-const darkTheme = 'dark-theme';
+let darkTheme = 'dark-theme';
+let darkMode = localStorage.getItem("dark-mode");
 
-themeButton.addEventListener('click', () => {
-    document.body.classList.toggle(darkTheme);
-    if (document.body.classList.contains(darkTheme)) {
-        themeButton.classList.remove('fa-moon');
-        themeButton.classList.add('fa-sun');
+function enableDarkMode() {
+    document.body.classList.add(darkTheme);
+    themeButton.classList.add('fa-sun');
+    themeButton.classList.remove('fa-moon');
+    localStorage.setItem("dark-mode", "enabled");
+};
+
+function disableDarkMode() {
+    document.body.classList.remove(darkTheme);
+    themeButton.classList.add('fa-moon');
+    themeButton.classList.remove('fa-sun');
+    localStorage.setItem("dark-mode", "disabled");
+};
+
+if (darkMode === "enabled") {
+    enableDarkMode();
+}
+
+themeButton.addEventListener("click", () => {
+    darkMode = localStorage.getItem("dark-mode");
+    if (darkMode === "disabled") {
+      enableDarkMode();
     } else {
-        themeButton.classList.add('fa-moon');
-        themeButton.classList.remove('fa-sun');
+      disableDarkMode();
     }
 });
 
