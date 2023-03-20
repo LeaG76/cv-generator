@@ -108,9 +108,9 @@ if (darkMode === "enabled") {
 themeButton.addEventListener("click", () => {
     darkMode = localStorage.getItem("dark-mode");
     if (darkMode === "disabled") {
-      enableDarkMode();
+        enableDarkMode();
     } else {
-      disableDarkMode();
+        disableDarkMode();
     }
 });
 

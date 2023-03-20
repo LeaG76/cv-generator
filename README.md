@@ -106,6 +106,12 @@ Then, open it from your favorite text editor or IDE, normally you should have th
   As said before, to be able to use this project, you will have to be connected to a local server
   
   Plusieurs éditeurs de textes ont la fonctionnalité de local server (like VSCode, SublimeText, Atom, ...)
+
+  <p align="center">
+    <img alt="Live Server" src="previews/live-server.png" height="200px" />
+    <img alt="Go Live" src="previews/go-live.png" height="25px" />
+    <img alt="Port 5500" src="previews/port-5500.png" height="25px" />
+  </p>
 </details>
 
 <details close>
